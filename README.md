@@ -4,17 +4,19 @@
 
 The evaluation of language models is based on the principle that the probability assigned by the model to the correct answer, given the question and the date, should be higher when the date is correct compared to when it is incorrect. Mathematically, this is expressed as: 
 
-\[ P(\text{answer} \mid \text{date}_{\text{correct}}, \text{question}) > P(\text{answer} \mid \text{date}_{\text{incorrect}}, \text{question}) \]
+```math
+P(\text{answer} \mid \text{date}_{\text{correct}}, \text{question}) > P(\text{answer} \mid \text{date}_{\text{incorrect}}, \text{question})
+```
 
 TimeStress includes numerous correct and incorrect statements, with each date expressed in three different precisions. This allows for the evaluation of LLMs along two dimensions: by varying the date on the **timeline** and by adjusting the **precision**. An illustration of these two dimensions and a sample of TimeStress are provided below.
 
-*Insert illustration from paper*
+![image](https://github.com/user-attachments/assets/ab2aa232-feaa-4ac8-bc6c-74cf9294e618)
 
 ## Repository Content
 
 The main goal of this repository is to reproduce the results of our paper:
 
-[Language Models Struggle to Achieve a Consistent Temporal Representation of Facts](https://arxiv.org/abs/2502.01220), Ammar Khodja et al., 2025.
+[Khodja, H. A., et al. (2025). Factual Knowledge in Language Models: Robustness and Anomalies under Simple Temporal Context Variations. arXiv preprint arXiv:2502.01220.](https://arxiv.org/abs/2502.01220) (accepted for publication at **ACL Workshop - L2M2**)
 
 We provide the source code and data to:
 
@@ -116,13 +118,13 @@ explain_date
 
 **Important**: Specify the `--instruct` flag when the model is instruction tuned. Else, do not put the flag.
 
-There are also other parameters that can be set such as the LLM's precision (16bit or 32bit), and the batch size; more details can be found in the script. By default, the script uses the TimeStress dataset from Huggingface. To use a custom one, specify its path using the `--timestress_path` argument.
+There are also other parameters that can be set such as the LLM's precision (16bit or 32bit), and the batch size; more details can be found in the script. **By default, the script uses the TimeStress dataset from Huggingface**. To use a custom one, specify its path using the `--timestress_path` argument.
 
 **Note**: The `classic` experiment is enough to reproduce most results in the paper. The other experiments are exclusively related to *Explanation Prompts* results (see the [paper](https://arxiv.org/abs/2502.01220)).
 
 ## Analysis of LLMs' Predictions
 
-Follow the instructions inside the notebook `experiments/temporality-context-paper/analyze_results.ipynb` to analyze the LLM's and generate all the plots and tables in our paper.
+Follow the instructions inside the notebook `experiments/temporality-context-paper/analyze_results.ipynb` to analyze the LLMs' predictions and generate most of the plots and tables in our paper.
 
 
 ## Having an issue with our code?
@@ -132,8 +134,8 @@ If you have a problem running our code, please let us know by opening an issue ;
 ## How to cite our work?
 
 ```
-@misc{khodja2025languagemodelsstruggleachieve,
-      title={Language Models Struggle to Achieve a Consistent Temporal Representation of Facts}, 
+@misc{khodja2025factualknowledgelanguagemodels,
+      title={Factual Knowledge in Language Models: Robustness and Anomalies under Simple Temporal Context Variations}, 
       author={Hichem Ammar Khodja and Frédéric Béchet and Quentin Brabant and Alexis Nasr and Gwénolé Lecorvé},
       year={2025},
       eprint={2502.01220},
