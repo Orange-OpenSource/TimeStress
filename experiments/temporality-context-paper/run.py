@@ -82,11 +82,14 @@ def load_from_huggingface() -> pd.DataFrame:
     df['EndDate'] = df['EndDate'].apply(Date.from_string)
     df['Fact'] = df[['Subject', 'Relation', 'Object', 'StartDate', 'EndDate']].apply(lambda x : TimedTriple(x['Subject'], x['Relation'], x['Object'], 
                                                                                                             Interval(x['StartDate'], x['EndDate'])), axis=1)
+    df['Time'] = df['Time'].apply(lambda x : Date.from_string(x))
+    df['Granularity'] = df['Time'].apply(lambda x : x.level)
+    df['IsCorrect'] = df['Status']
     df.drop(columns=[
         'Subject', 'SubjectID', 'SubjectLabel',
         'Relation', 'RelationID', 'RelationLabel',
         'Object', 'ObjectID', 'ObjectLabel',
-        'StartDate', 'EndDate'
+        'StartDate', 'EndDate', 'Status'
     ], inplace=True)
     return df
     
