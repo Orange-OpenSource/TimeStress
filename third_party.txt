@@ -1,0 +1,168 @@
+List Of Dependencies of this project (direct and indirect)                                        
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ Package                   ┃ License(s)                                         ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┩
+│ Jinja2                    │ BSD LICENSE                                        │
+│ MarkupSafe                │ BSD LICENSE                                        │
+│ PyYAML                    │ MIT LICENSE                                        │
+│ Pygments                  │ BSD LICENSE                                        │
+│ Send2Trash                │ BSD LICENSE                                        │
+│ aiohappyeyeballs          │ PYTHON SOFTWARE FOUNDATION LICENSE                 │
+│ aiohttp                   │ APACHE SOFTWARE LICENSE                            │
+│ aiosignal                 │ APACHE SOFTWARE LICENSE                            │
+│ anyio                     │ MIT LICENSE                                        │
+│ argon2-cffi               │ MIT LICENSE                                        │
+│ argon2-cffi-bindings      │ MIT LICENSE                                        │
+│ arrow                     │ APACHE SOFTWARE LICENSE                            │
+│ asttokens                 │ APACHE 2.0                                         │
+│ async-lru                 │ MIT LICENSE                                        │
+│ attrs                     │ MIT LICENSE                                        │
+│ babel                     │ BSD LICENSE                                        │
+│ beautifulsoup4            │ MIT LICENSE                                        │
+│ bleach                    │ APACHE SOFTWARE LICENSE                            │
+│ certifi                   │ MOZILLA PUBLIC LICENSE 2.0 (MPL 2.0)               │
+│ cffi                      │ MIT LICENSE                                        │
+│ charset-normalizer        │ MIT LICENSE                                        │
+│ comm                      │ BSD LICENSE                                        │
+│ contourpy                 │ BSD LICENSE                                        │
+│ cycler                    │ BSD LICENSE                                        │
+│ datasets                  │ APACHE SOFTWARE LICENSE                            │
+│ debugpy                   │ MIT LICENSE                                        │
+│ decorator                 │ BSD LICENSE                                        │
+│ defusedxml                │ PYTHON SOFTWARE FOUNDATION LICENSE                 │
+│ dill                      │ BSD LICENSE                                        │
+│ dnspython                 │ ISC LICENSE (ISCL)                                 │
+│ executing                 │ MIT LICENSE                                        │
+│ fastjsonschema            │ BSD LICENSE                                        │
+│ filelock                  │ THE UNLICENSE (UNLICENSE)                          │
+│ fonttools                 │ MIT LICENSE                                        │
+│ fqdn                      │ MOZILLA PUBLIC LICENSE 2.0 (MPL 2.0)               │
+│ frozendict                │ GNU LESSER GENERAL PUBLIC LICENSE V3 (LGPLV3)      │
+│ frozenlist                │ APACHE SOFTWARE LICENSE                            │
+│ fsspec                    │ BSD LICENSE                                        │
+│ h11                       │ MIT LICENSE                                        │
+│ httpcore                  │ BSD LICENSE                                        │
+│ httpx                     │ BSD LICENSE                                        │
+│ huggingface-hub           │ APACHE SOFTWARE LICENSE                            │
+│ idna                      │ BSD LICENSE                                        │
+│ indexed_bzip2             │ APACHE SOFTWARE LICENSE;; MIT LICENSE              │
+│ internetarchive           │ GNU AFFERO GENERAL PUBLIC LICENSE V3               │
+│ ipykernel                 │ BSD LICENSE                                        │
+│ ipython                   │ BSD LICENSE                                        │
+│ ipython-genutils          │ BSD LICENSE                                        │
+│ ipywidgets                │ BSD LICENSE                                        │
+│ isoduration               │ ISC LICENSE (ISCL)                                 │
+│ jedi                      │ MIT LICENSE                                        │
+│ joblib                    │ BSD LICENSE                                        │
+│ json5                     │ APACHE SOFTWARE LICENSE                            │
+│ jsonpatch                 │ BSD LICENSE                                        │
+│ jsonpointer               │ BSD LICENSE                                        │
+│ jsonschema                │ MIT LICENSE                                        │
+│ jsonschema-specifications │ MIT LICENSE                                        │
+│ jupyter-events            │ BSD LICENSE                                        │
+│ jupyter-lsp               │ BSD LICENSE                                        │
+│ jupyter_client            │ BSD LICENSE                                        │
+│ jupyter_core              │ BSD LICENSE                                        │
+│ jupyter_server            │ BSD LICENSE                                        │
+│ jupyter_server_terminals  │ BSD LICENSE                                        │
+│ jupyterlab                │ BSD LICENSE                                        │
+│ jupyterlab_pygments       │ BSD LICENSE                                        │
+│ jupyterlab_server         │ BSD LICENSE                                        │
+│ jupyterlab_widgets        │ BSD LICENSE                                        │
+│ kiwisolver                │ BSD LICENSE                                        │
+│ linkify-it-py             │ MIT LICENSE                                        │
+│ markdown-it-py            │ MIT LICENSE                                        │
+│ matplotlib                │ PYTHON SOFTWARE FOUNDATION LICENSE                 │
+│ matplotlib-inline         │ BSD LICENSE                                        │
+│ mdit-py-plugins           │ MIT LICENSE                                        │
+│ mdurl                     │ MIT LICENSE                                        │
+│ mistune                   │ BSD LICENSE                                        │
+│ mpmath                    │ BSD LICENSE                                        │
+│ multidict                 │ APACHE SOFTWARE LICENSE                            │
+│ multiprocess              │ BSD LICENSE                                        │
+│ nbclient                  │ BSD LICENSE                                        │
+│ nbconvert                 │ BSD LICENSE                                        │
+│ nbformat                  │ BSD LICENSE                                        │
+│ nest-asyncio              │ BSD LICENSE                                        │
+│ networkx                  │ BSD LICENSE                                        │
+│ notebook                  │ BSD LICENSE                                        │
+│ notebook_shim             │ BSD LICENSE                                        │
+│ numpy                     │ BSD LICENSE                                        │
+│ nvidia-cublas-cu12        │ OTHER/PROPRIETARY LICENSE                          │
+│ nvidia-cuda-cupti-cu12    │ OTHER/PROPRIETARY LICENSE                          │
+│ nvidia-cuda-nvrtc-cu12    │ OTHER/PROPRIETARY LICENSE                          │
+│ nvidia-cuda-runtime-cu12  │ OTHER/PROPRIETARY LICENSE                          │
+│ nvidia-cudnn-cu12         │ OTHER/PROPRIETARY LICENSE                          │
+│ nvidia-cufft-cu12         │ OTHER/PROPRIETARY LICENSE                          │
+│ nvidia-curand-cu12        │ OTHER/PROPRIETARY LICENSE                          │
+│ nvidia-cusolver-cu12      │ OTHER/PROPRIETARY LICENSE                          │
+│ nvidia-cusparse-cu12      │ OTHER/PROPRIETARY LICENSE                          │
+│ nvidia-cusparselt-cu12    │ NVIDIA PROPRIETARY SOFTWARE                        │
+│ nvidia-nccl-cu12          │ OTHER/PROPRIETARY LICENSE                          │
+│ nvidia-nvjitlink-cu12     │ OTHER/PROPRIETARY LICENSE                          │
+│ nvidia-nvtx-cu12          │ OTHER/PROPRIETARY LICENSE                          │
+│ overrides                 │ APACHE LICENSE, VERSION 2.0                        │
+│ packaging                 │ APACHE SOFTWARE LICENSE;; BSD LICENSE              │
+│ pandas                    │ BSD LICENSE                                        │
+│ pandocfilters             │ BSD LICENSE                                        │
+│ parso                     │ MIT LICENSE                                        │
+│ pexpect                   │ ISC LICENSE (ISCL)                                 │
+│ pillow                    │ CMU LICENSE (MIT-CMU)                              │
+│ platformdirs              │ MIT LICENSE                                        │
+│ prometheus_client         │ APACHE SOFTWARE LICENSE                            │
+│ prompt_toolkit            │ BSD LICENSE                                        │
+│ propcache                 │ APACHE SOFTWARE LICENSE                            │
+│ psutil                    │ BSD LICENSE                                        │
+│ ptyprocess                │ ISC LICENSE (ISCL)                                 │
+│ pure_eval                 │ MIT LICENSE                                        │
+│ pyarrow                   │ APACHE SOFTWARE LICENSE                            │
+│ pycparser                 │ BSD LICENSE                                        │
+│ pymongo                   │ APACHE SOFTWARE LICENSE                            │
+│ pyparsing                 │ MIT LICENSE                                        │
+│ python-dateutil           │ BSD LICENSE;; APACHE SOFTWARE LICENSE              │
+│ python-json-logger        │ BSD LICENSE                                        │
+│ pytz                      │ MIT LICENSE                                        │
+│ pyzmq                     │ BSD LICENSE                                        │
+│ referencing               │ MIT LICENSE                                        │
+│ regex                     │ APACHE SOFTWARE LICENSE                            │
+│ requests                  │ APACHE SOFTWARE LICENSE                            │
+│ rfc3339-validator         │ MIT LICENSE                                        │
+│ rfc3986-validator         │ MIT LICENSE                                        │
+│ rich                      │ MIT LICENSE                                        │
+│ rpds-py                   │ MIT LICENSE                                        │
+│ safetensors               │ APACHE SOFTWARE LICENSE                            │
+│ scikit-learn              │ BSD LICENSE                                        │
+│ scipy                     │ BSD LICENSE                                        │
+│ seaborn                   │ BSD LICENSE                                        │
+│ setuptools                │ MIT LICENSE                                        │
+│ six                       │ MIT LICENSE                                        │
+│ sniffio                   │ MIT LICENSE;; APACHE SOFTWARE LICENSE              │
+│ sortedcontainers          │ APACHE SOFTWARE LICENSE                            │
+│ soupsieve                 │ MIT LICENSE                                        │
+│ stack-data                │ MIT LICENSE                                        │
+│ sympy                     │ BSD LICENSE                                        │
+│ terminado                 │ BSD LICENSE                                        │
+│ textual                   │ MIT LICENSE                                        │
+│ threadpoolctl             │ BSD LICENSE                                        │
+│ tinycss2                  │ BSD LICENSE                                        │
+│ tokenizers                │ APACHE SOFTWARE LICENSE                            │
+│ torch                     │ BSD LICENSE                                        │
+│ tornado                   │ APACHE SOFTWARE LICENSE                            │
+│ tqdm                      │ MIT LICENSE;; MOZILLA PUBLIC LICENSE 2.0 (MPL 2.0) │
+│ traitlets                 │ BSD LICENSE                                        │
+│ transformers              │ APACHE SOFTWARE LICENSE                            │
+│ triton                    │ MIT LICENSE                                        │
+│ types-python-dateutil     │ APACHE SOFTWARE LICENSE                            │
+│ typing_extensions         │ PYTHON SOFTWARE FOUNDATION LICENSE                 │
+│ tzdata                    │ APACHE SOFTWARE LICENSE                            │
+│ uc-micro-py               │ MIT LICENSE                                        │
+│ uri-template              │ MIT LICENSE                                        │
+│ urllib3                   │ MIT LICENSE                                        │
+│ wcwidth                   │ MIT LICENSE                                        │
+│ webcolors                 │ BSD LICENSE                                        │
+│ webencodings              │ BSD LICENSE                                        │
+│ websocket-client          │ APACHE SOFTWARE LICENSE                            │
+│ widgetsnbextension        │ BSD LICENSE                                        │
+│ xxhash                    │ BSD LICENSE                                        │
+│ yarl                      │ APACHE SOFTWARE LICENSE                            │
+└───────────────────────────┴────────────────────────────────────────────────────┘

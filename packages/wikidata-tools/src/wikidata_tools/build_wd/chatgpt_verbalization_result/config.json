@@ -1,0 +1,10 @@
+{
+    "main_promp": "Here is the knowledge triple to verbalize: (%s, %s, %s). Your sentences should be concise and end with the term %s.",
+    "support_prompt": "Due to the ambiguity that could arise from the provided labels, here is their meaning:\n- (subject) \"%s\" : \"%s\"\n- (relation) \"%s\" : \"%s\"\n- (object) \"%s\" : \"%s\"",
+    "max_tokens": 800,
+    "openai_config": {
+        "api_type": "SECRET",
+        "api_base": "SECRET",
+        "api_version": "SECRET"
+    }
+}

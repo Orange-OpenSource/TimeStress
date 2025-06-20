@@ -1,0 +1,26 @@
+[project]
+name = "verb-tools"
+version = "0.1.1"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Hichem Ammar Khodja", email = "hichem.ammarkhodja@orange.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "datasets>=2.19.1",
+    "defusedxml>=0.7.1",
+    "mlconjug3>=3.7.22",
+    "nltk>=3.9.1",
+    "scikit-learn>=1.5.2",
+    "setuptools>=70.0.0",
+    "wikidata-tools",
+    "diskcache>=5.6.3"
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv.sources]
+wikidata-tools = { workspace = true }

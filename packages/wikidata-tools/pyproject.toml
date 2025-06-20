@@ -1,0 +1,29 @@
+[project]
+name = "wikidata-tools"
+version = "0.1.1"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Hichem Ammar Khodja", email = "hichem.ammarkhodja@orange.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "internetarchive>=4.1.0",
+    "textual>=0.84.0",
+    "ke-utils",
+    "indexed-bzip2>=1.6.0",
+    "frozendict>=2.4.6",
+    "duckdb>=1.2.1",
+    "pandas>=2.2.3",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.sdist]
+exclude = [
+  "*.json",
+  "*.xz",
+  "tests"
+]

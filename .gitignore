@@ -1,0 +1,9 @@
+.venv
+dist
+**/.pytest_cache
+**/__pycache__
+experiments/temporality-context-paper/pararel
+data
+experiments/temporality-context-paper/**/*.pkl
+.vscode/launch.json
+*.pdf

@@ -1,0 +1,22 @@
+[project]
+name = "temporality-context-paper"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "datasets>=3.3.2",
+    "ipywidgets==7.7.2",
+    "ke-utils",
+    "lm-tools",
+    "scikit-learn>=1.6.1",
+    "seaborn>=0.13.2",
+    "verb-tools",
+    "wikidata-tools",
+]
+
+[tool.uv.sources]
+wikidata-tools = { workspace = true }
+lm-tools = { workspace = true }
+verb-tools = { workspace = true }
+ke-utils = { workspace = true }

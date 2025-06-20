@@ -1,0 +1,49 @@
+[project]
+name = "timestress"
+version = "0.1.0"
+description = ""
+authors = [
+    { name = "Hichem Ammar Khodja", email = "hichem.ammarkhodja@orange.com" }
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "ke-utils",
+  "lm-tools",
+  "wikidata-tools",
+  "verb-tools",
+  "temporality-context-paper",
+]
+
+[tool.uv.workspace]
+members = ["packages/ke-utils", "packages/lm-tools", "packages/wikidata-tools", "packages/verb-tools",
+"experiments/temporality-context-paper"]
+exclude = []
+
+[tool.uv.sources]
+ke-utils = { workspace = true }
+lm-tools = { workspace = true }
+wikidata-tools = { workspace = true }
+verb-tools = { workspace = true }
+temporality-context-paper = { workspace = true }
+
+
+[[tool.uv.index]]
+url = "https://pypi.org/simple"
+
+[[tool.uv.index]]
+name = "torch-cu118"
+url = "https://download.pytorch.org/whl/cu118"
+
+
+[tool.hatch.build.targets.sdist]
+exclude = [
+  "tests"
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.5",
+    "markupsafe>=3.0.2",
+    "pytest>=8.3.3",
+]
