@@ -134,14 +134,13 @@ If you have a problem running our code, please let us know by opening an issue ;
 ## How to cite our work?
 
 ```
-@misc{khodja2025factualknowledgelanguagemodels,
-      title={Factual Knowledge in Language Models: Robustness and Anomalies under Simple Temporal Context Variations}, 
-      author={Hichem Ammar Khodja and Frédéric Béchet and Quentin Brabant and Alexis Nasr and Gwénolé Lecorvé},
-      year={2025},
-      eprint={2502.01220},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2502.01220}, 
+@inproceedings{ammarkhodja2025temprob,
+  author = {Hichem Ammar Khodja and Frederic Bechet and Quentin Brabant and Alexis Nasr and Gwénolé Lecorvé},
+  title = {Factual Knowledge in Language Models: Robustness and Anomalies under Simple Temporal Context Variations},
+  booktitle = {Proceedings of the 1st ACL 2025 Workshop on Large Language Model Memorization},
+  year = {2025},
+  address = {Vienna, Austria},
+  publisher = {Association for Computational Linguistics}
 }
 ```
 
