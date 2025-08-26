@@ -134,13 +134,30 @@ If you have a problem running our code, please let us know by opening an issue ;
 ## How to cite our work?
 
 ```
-@inproceedings{ammarkhodja2025temprob,
-  author = {Hichem Ammar Khodja and Frederic Bechet and Quentin Brabant and Alexis Nasr and Gwénolé Lecorvé},
-  title = {Factual Knowledge in Language Models: Robustness and Anomalies under Simple Temporal Context Variations},
-  booktitle = {Proceedings of the 1st ACL 2025 Workshop on Large Language Model Memorization},
-  year = {2025},
-  address = {Vienna, Austria},
-  publisher = {Association for Computational Linguistics}
+@inproceedings{khodja-etal-2025-factual,
+    title = "Factual Knowledge in Language Models: Robustness and Anomalies under Simple Temporal Context Variations",
+    author = "Khodja, Hichem Ammar  and
+      Bechet, Frederic  and
+      Brabant, Quentin  and
+      Nasr, Alexis  and
+      Lecorv{\'e}, Gw{\'e}nol{\'e}",
+    editor = "Jia, Robin  and
+      Wallace, Eric  and
+      Huang, Yangsibo  and
+      Pimentel, Tiago  and
+      Maini, Pratyush  and
+      Dankers, Verna  and
+      Wei, Johnny  and
+      Lesci, Pietro",
+    booktitle = "Proceedings of the First Workshop on Large Language Model Memorization (L2M2)",
+    month = aug,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.l2m2-1.1/",
+    doi = "10.18653/v1/2025.l2m2-1.1",
+    pages = "1--22",
+    ISBN = "979-8-89176-278-7"
 }
 ```
 
