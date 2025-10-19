@@ -16,7 +16,7 @@ TimeStress includes numerous correct and incorrect statements, with each date ex
 
 The main goal of this repository is to reproduce the results of our paper:
 
-[Khodja, H. A., et al. (2025). Factual Knowledge in Language Models: Robustness and Anomalies under Simple Temporal Context Variations. arXiv preprint arXiv:2502.01220.](https://arxiv.org/abs/2502.01220) (accepted for publication at **ACL Workshop - L2M2**)
+[Khodja, H. A., et al. (2025). Factual Knowledge in Language Models: Robustness and Anomalies under Simple Temporal Context Variations. arXiv preprint arXiv:2502.01220.](https://arxiv.org/abs/2502.01220) (published in **ACL Workshop L2M2 - Best Paper Award**)
 
 We provide the source code and data to:
 
